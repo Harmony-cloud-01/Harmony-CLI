@@ -1,19 +1,26 @@
 # Harmony CLI
 
-The Harmony CLI provides direct access to the **Context Layer Manager**, **CodexViewer**, and **symbolic audits** for Harmony’s Codex and SP system.
+The **Harmony CLI** is the entrypoint for interacting with the Harmony Codex, symbolic layers, and context-engine features (CodexViewer, Drift Logs, SP orchestration).
 
 ---
 
-## ⚙️ Requirements
-- Python **3.11+**
-- macOS or Linux (recommended; Windows via WSL2)
-- `pipx` or `venv`
+## Requirements
+- Python 3.11+
+- macOS / Linux recommended (Windows supported with PowerShell)
+- `git` installed
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Option A — pipx (recommended)
+This installs the CLI in an isolated global environment, callable from anywhere:
+
 ```bash
-pipx install git+https://github.com/Harmony-cloud-01/Harmony-CLI.git
-harmony --help
+pip install pipx
+pipx ensurepath
+
+git clone https://github.com/Harmony-cloud-01/Harmony-CLI.git
+cd Harmony-CLI
+
+pipx install .
