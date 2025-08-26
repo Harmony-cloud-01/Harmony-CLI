@@ -22,3 +22,28 @@ If you use [pipx](https://pypa.github.io/pipx/), Harmony-CLI can be installed gl
 ```bash
 pipx install git+https://github.com/Harmony-cloud-01/Harmony-CLI.git
 harmony --help
+
+Option B — venv
+
+For project-local installs:
+
+git clone git@github.com:Harmony-cloud-01/Harmony-CLI.git
+cd Harmony-CLI
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+harmony --help
+
+Development
+
+git clone git@github.com:Harmony-cloud-01/Harmony-CLI.git
+cd Harmony-CLI
+# install dev dependencies
+pip install -r requirements.txt
+
+Run tests and linting:
+
+pytest
+flake8
+
+
