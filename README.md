@@ -1,5 +1,9 @@
 # Harmony-CLI
 
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Codex Audit](https://img.shields.io/badge/status-codex%20audit%20clean-brightgreen)](Codex/)
+
 The **Harmony-CLI** is the command-line interface for managing the Harmony system.  
 It provides tools for interacting with the Codex, running audits, visualizing drift, and coordinating SPs (Synthetic Personas).
 
@@ -14,7 +18,7 @@ It provides tools for interacting with the Codex, running audits, visualizing dr
 
 ---
 
-## 📦 Installation 
+## 📦 Installation
 
 ### Option A — pipx (recommended)
 If you use [pipx](https://pypa.github.io/pipx/), Harmony-CLI can be installed globally in an isolated environment:
