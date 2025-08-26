@@ -14,7 +14,7 @@ It provides tools for interacting with the Codex, running audits, visualizing dr
 
 ---
 
-## 📦 Installation
+## 📦 Installation 
 
 ### Option A — pipx (recommended)
 If you use [pipx](https://pypa.github.io/pipx/), Harmony-CLI can be installed globally in an isolated environment:
